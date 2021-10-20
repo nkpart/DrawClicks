@@ -7,24 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4776BE76271FE99D00EBB3EA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4776BE75271FE99D00EBB3EA /* Tests_iOS.swift */; };
 		4776BE80271FE99D00EBB3EA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4776BE7F271FE99D00EBB3EA /* Tests_macOS.swift */; };
-		4776BE81271FE99D00EBB3EA /* DrawClicksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4776BE5F271FE99C00EBB3EA /* DrawClicksApp.swift */; };
 		4776BE82271FE99D00EBB3EA /* DrawClicksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4776BE5F271FE99C00EBB3EA /* DrawClicksApp.swift */; };
-		4776BE83271FE99D00EBB3EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4776BE60271FE99C00EBB3EA /* ContentView.swift */; };
 		4776BE84271FE99D00EBB3EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4776BE60271FE99C00EBB3EA /* ContentView.swift */; };
-		4776BE85271FE99D00EBB3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4776BE61271FE99D00EBB3EA /* Assets.xcassets */; };
 		4776BE86271FE99D00EBB3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4776BE61271FE99D00EBB3EA /* Assets.xcassets */; };
+		4776BE9A271FF05000EBB3EA /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 4776BE99271FF05000EBB3EA /* HotKey */; };
+		4776BE9D2720017700EBB3EA /* SwiftImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4776BE9C2720017700EBB3EA /* SwiftImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4776BE72271FE99D00EBB3EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4776BE5A271FE99C00EBB3EA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4776BE65271FE99D00EBB3EA;
-			remoteInfo = "DrawClicks (iOS)";
-		};
 		4776BE7C271FE99D00EBB3EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4776BE5A271FE99C00EBB3EA /* Project object */;
@@ -38,33 +29,18 @@
 		4776BE5F271FE99C00EBB3EA /* DrawClicksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawClicksApp.swift; sourceTree = "<group>"; };
 		4776BE60271FE99C00EBB3EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4776BE61271FE99D00EBB3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4776BE66271FE99D00EBB3EA /* DrawClicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawClicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4776BE6C271FE99D00EBB3EA /* DrawClicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawClicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4776BE71271FE99D00EBB3EA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4776BE75271FE99D00EBB3EA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		4776BE7B271FE99D00EBB3EA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4776BE7F271FE99D00EBB3EA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4776BE63271FE99D00EBB3EA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4776BE69271FE99D00EBB3EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4776BE6E271FE99D00EBB3EA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4776BE9D2720017700EBB3EA /* SwiftImage in Frameworks */,
+				4776BE9A271FF05000EBB3EA /* HotKey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				4776BE5E271FE99C00EBB3EA /* Shared */,
-				4776BE74271FE99D00EBB3EA /* Tests iOS */,
 				4776BE7E271FE99D00EBB3EA /* Tests macOS */,
 				4776BE67271FE99D00EBB3EA /* Products */,
+				4776BE98271FF05000EBB3EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,20 +77,10 @@
 		4776BE67271FE99D00EBB3EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4776BE66271FE99D00EBB3EA /* DrawClicks.app */,
 				4776BE6C271FE99D00EBB3EA /* DrawClicks.app */,
-				4776BE71271FE99D00EBB3EA /* Tests iOS.xctest */,
 				4776BE7B271FE99D00EBB3EA /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4776BE74271FE99D00EBB3EA /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4776BE75271FE99D00EBB3EA /* Tests_iOS.swift */,
-			);
-			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
 		4776BE7E271FE99D00EBB3EA /* Tests macOS */ = {
@@ -125,26 +91,16 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		4776BE98271FF05000EBB3EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4776BE65271FE99D00EBB3EA /* DrawClicks (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4776BE89271FE99D00EBB3EA /* Build configuration list for PBXNativeTarget "DrawClicks (iOS)" */;
-			buildPhases = (
-				4776BE62271FE99D00EBB3EA /* Sources */,
-				4776BE63271FE99D00EBB3EA /* Frameworks */,
-				4776BE64271FE99D00EBB3EA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DrawClicks (iOS)";
-			productName = "DrawClicks (iOS)";
-			productReference = 4776BE66271FE99D00EBB3EA /* DrawClicks.app */;
-			productType = "com.apple.product-type.application";
-		};
 		4776BE6B271FE99D00EBB3EA /* DrawClicks (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4776BE8C271FE99D00EBB3EA /* Build configuration list for PBXNativeTarget "DrawClicks (macOS)" */;
@@ -158,27 +114,13 @@
 			dependencies = (
 			);
 			name = "DrawClicks (macOS)";
+			packageProductDependencies = (
+				4776BE99271FF05000EBB3EA /* HotKey */,
+				4776BE9C2720017700EBB3EA /* SwiftImage */,
+			);
 			productName = "DrawClicks (macOS)";
 			productReference = 4776BE6C271FE99D00EBB3EA /* DrawClicks.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4776BE70271FE99D00EBB3EA /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4776BE8F271FE99D00EBB3EA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				4776BE6D271FE99D00EBB3EA /* Sources */,
-				4776BE6E271FE99D00EBB3EA /* Frameworks */,
-				4776BE6F271FE99D00EBB3EA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4776BE73271FE99D00EBB3EA /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 4776BE71271FE99D00EBB3EA /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		4776BE7A271FE99D00EBB3EA /* Tests macOS */ = {
 			isa = PBXNativeTarget;
@@ -208,15 +150,8 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					4776BE65271FE99D00EBB3EA = {
-						CreatedOnToolsVersion = 13.0;
-					};
 					4776BE6B271FE99D00EBB3EA = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					4776BE70271FE99D00EBB3EA = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 4776BE65271FE99D00EBB3EA;
 					};
 					4776BE7A271FE99D00EBB3EA = {
 						CreatedOnToolsVersion = 13.0;
@@ -233,39 +168,26 @@
 				Base,
 			);
 			mainGroup = 4776BE59271FE99C00EBB3EA;
+			packageReferences = (
+				4776BE95271FEFE500EBB3EA /* XCRemoteSwiftPackageReference "HotKey" */,
+				4776BE9B2720017700EBB3EA /* XCRemoteSwiftPackageReference "swift-image" */,
+			);
 			productRefGroup = 4776BE67271FE99D00EBB3EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4776BE65271FE99D00EBB3EA /* DrawClicks (iOS) */,
 				4776BE6B271FE99D00EBB3EA /* DrawClicks (macOS) */,
-				4776BE70271FE99D00EBB3EA /* Tests iOS */,
 				4776BE7A271FE99D00EBB3EA /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4776BE64271FE99D00EBB3EA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4776BE85271FE99D00EBB3EA /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4776BE6A271FE99D00EBB3EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4776BE86271FE99D00EBB3EA /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4776BE6F271FE99D00EBB3EA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,29 +201,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4776BE62271FE99D00EBB3EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4776BE83271FE99D00EBB3EA /* ContentView.swift in Sources */,
-				4776BE81271FE99D00EBB3EA /* DrawClicksApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4776BE68271FE99D00EBB3EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4776BE84271FE99D00EBB3EA /* ContentView.swift in Sources */,
 				4776BE82271FE99D00EBB3EA /* DrawClicksApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4776BE6D271FE99D00EBB3EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4776BE76271FE99D00EBB3EA /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,11 +221,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4776BE73271FE99D00EBB3EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4776BE65271FE99D00EBB3EA /* DrawClicks (iOS) */;
-			targetProxy = 4776BE72271FE99D00EBB3EA /* PBXContainerItemProxy */;
-		};
 		4776BE7D271FE99D00EBB3EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4776BE6B271FE99D00EBB3EA /* DrawClicks (macOS) */;
@@ -440,67 +340,6 @@
 			};
 			name = Release;
 		};
-		4776BE8A271FE99D00EBB3EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XGYD62M8XM;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.nkpart.DrawClicks;
-				PRODUCT_NAME = DrawClicks;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4776BE8B271FE99D00EBB3EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XGYD62M8XM;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.nkpart.DrawClicks;
-				PRODUCT_NAME = DrawClicks;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4776BE8D271FE99D00EBB3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,57 +395,6 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		4776BE90271FE99D00EBB3EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XGYD62M8XM;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.nkpart.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "DrawClicks (iOS)";
-			};
-			name = Debug;
-		};
-		4776BE91271FE99D00EBB3EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XGYD62M8XM;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.nkpart.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "DrawClicks (iOS)";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -672,29 +460,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4776BE89271FE99D00EBB3EA /* Build configuration list for PBXNativeTarget "DrawClicks (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4776BE8A271FE99D00EBB3EA /* Debug */,
-				4776BE8B271FE99D00EBB3EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4776BE8C271FE99D00EBB3EA /* Build configuration list for PBXNativeTarget "DrawClicks (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4776BE8D271FE99D00EBB3EA /* Debug */,
 				4776BE8E271FE99D00EBB3EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4776BE8F271FE99D00EBB3EA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4776BE90271FE99D00EBB3EA /* Debug */,
-				4776BE91271FE99D00EBB3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -709,6 +479,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4776BE95271FEFE500EBB3EA /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		4776BE9B2720017700EBB3EA /* XCRemoteSwiftPackageReference "swift-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koher/swift-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4776BE99271FF05000EBB3EA /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4776BE95271FEFE500EBB3EA /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+		4776BE9C2720017700EBB3EA /* SwiftImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4776BE9B2720017700EBB3EA /* XCRemoteSwiftPackageReference "swift-image" */;
+			productName = SwiftImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4776BE5A271FE99C00EBB3EA /* Project object */;
 }
